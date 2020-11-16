@@ -1,0 +1,26 @@
+{ 
+  "name": "nodejscicd",
+  "version": "1.0.0",
+  "description": "CI and CD with Node js and Github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkateshpasala/nodeJsCICD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkateshpasala/nodeJsCICD/issues"
+  },
+  "homepage": "https://github.com/venkateshpasala/nodeJsCICD#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.2.1",
+    "supertest": "^6.0.1"
+  }
+}
